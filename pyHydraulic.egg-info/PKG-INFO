@@ -1,0 +1,117 @@
+Metadata-Version: 1.1
+Name: pyHydraulic
+Version: 1.0.3
+Summary: pyHydraulic using PyQt5
+Home-page: https://github.com/nanjing-institute-of-technology/pyHydraulic.git
+Author: Bruce Lee
+Author-email: lee@njit.edu.cn
+License: MIT license
+Description: Readme
+        ======
+        pyHydraulic using PyQt5, built by Bruce Lee in Nanjing institute of technology
+        
+        
+        
+        ====================================================================
+        Project description for pyHydraulic
+        ====================================================================
+        
+        Create social share component pyHydraulic based on `github <https://github.com/nanjing-institute-of-technology/pyHydraulic>`_
+        
+        *************
+        1.Get Started
+        *************
+        
+        Installation is easy::
+        
+         $ pip install pyHydraulic
+        
+        
+        Initialize the extension::
+        
+         from pyHydraulic import pyH
+        
+        ****************************************************
+        2.Run the hydraulicSketcher to draw schematics
+        ****************************************************
+        
+        
+        Hydraulicsketcher is a tool similar to visio. It has been integrated in this package. Type the following code to call the tool independently.
+        
+        .. code:: python
+        
+            from pyHydraulic.hydraulicSketcher import hydraulicSketcher
+            hydraulicSketcher.run()
+        
+        Next, you'll see a software interface like this.
+        
+        .. image:: https://note.youdao.com/yws/public/resource/2d6ebb7e4e1aa8e32796b5917b780a8d/xmlnote/0EA04601A1BB4181A58FBAA9489DF7F1/41067
+        
+        
+        The tool itself  has called the pyHydraulic package.
+        There are still some functions to be improved for it.
+        A tutorial on using the tool will be provided later in GitHub.
+        
+        *************
+        3.Example
+        *************
+        For a period of time, I will give the instruction documents to
+        teach you how to draw the hydraulic schematic diagram and load
+        it in the interface of the measurement and control system
+        
+        For more demo, Please click the website below.
+        
+        \ `GIF Demo for this tool  <https://note.youdao.com/ynoteshare1/index.html?id=2d6ebb7e4e1aa8e32796b5917b780a8d&type=note>`_
+        
+        *************
+        3.Links
+        *************
+        
+        Documentation(To be complete)
+        PyPI(To be complete)
+        
+        *************
+        4.Authors
+        *************
+        Maintainer:
+        
+         Bruce Lee (Nanjing institute of technology),
+        
+         Zhuoli Shi (Beijing Jiaotong University)
+        
+        See also the list of contributors who participated in this project.
+        
+        *************
+        5.Donations
+        *************
+        So I need some donations from all of you. Your support is my motivation to make the package work better.
+        
+        my wechatPay is :
+        
+        .. image:: https://note.youdao.com/yws/public/resource/2d6ebb7e4e1aa8e32796b5917b780a8d/xmlnote/6C8192310EBC481597E3386640EAC17F/41070
+        
+        *************
+        5.License
+        *************
+        
+        This project is licensed under the MIT License (see the LICENSE file for details).
+        
+        *************************
+        5.Acknowledgement
+        *************************
+        
+        Special thanks to Mr. Pavel K艡upala. His excellent tutorials have helped build this package a lot.
+        
+        
+        
+        
+Keywords: pyHydraulic
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

@@ -1,0 +1,38 @@
+QDMNodeContentWidget { background: transparent; }
+QDMNodeContentWidget QLabel { color: rgb(255, 0, 0);  }
+QGraphicsView { selection-background-color: rgb(255, 255, 255); }
+/*QMainWindow,QMenuBar,QStatusBar,QLabel,QListWidget {
+background-color:dimgray;
+color : white
+}*/
+
+QListWidget
+{
+background-color: white;
+color:black
+}
+
+
+QListWidget::item:hover{
+border-width:1px;
+border-color:white;
+border-radius:8px;
+border-style: solid;
+background-color:lightgray;
+}
+QListWidget::item:selected{
+border-width:1px;
+border-color:white;
+border-radius:8px;
+border-style: solid;
+background-color:lightgray;
+color:black
+}
+
+QListWidget::item[text="pressure sensor"]{
+border-width:1px;
+border-color:white;
+border-radius:8px;
+border-style: solid;
+background-color:blue
+}
